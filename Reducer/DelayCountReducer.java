@@ -23,7 +23,7 @@ public class DelayCountReducer
 			Iterable<IntWritable> values, // Iterable: 여러개가 넘어온다. 입력 값의 순회 객체
 			Context context) throws InterruptedException {
 //		values에 있는 모든 값을 합산 -> 결과로 출력.
-//		입력 키와 출력 키가 같으니까 재활용(type이 같으니까?????)
+//		입력 키와 출력 키가 같으니까 재활용
 		try {
 			int sum = 0;
 	//		집계
